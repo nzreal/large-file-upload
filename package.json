@@ -1,0 +1,12 @@
+{
+  "name": "large-file-upload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nzreal",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "clean": "yarn workspaces run clean"
+  }
+}
